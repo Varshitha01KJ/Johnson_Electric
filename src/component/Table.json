@@ -1,0 +1,31 @@
+
+     [ 
+      
+       { 
+         "id":1,
+        "employeeName":"Alexa", 
+          "costCenter": "JEK", 
+          "expenseType": "Business Travel" 
+       }, 
+      
+       { 
+        "id":2,
+        "employeeName":"William", 
+        "costCenter": "PARLEX HK", 
+        "expenseType": "Home Leave"
+       }, 
+       {
+        "id":3, 
+        "employeeName":"John", 
+        "costCenter": "PRC", 
+        "expenseType": "Pretty Cash"
+       },
+       { 
+        "id":4,
+        "employeeName":"Putin", 
+        "costCenter": "JEK", 
+        "expenseType": "Business Travel3"
+       }
+
+    ]   
+  

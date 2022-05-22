@@ -1,0 +1,173 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+#button{
+  background-color: #ff6500;
+}
+#button:hover{
+  background-color: red;
+}
+#table{
+  background-color: bisque;
+  
+}
+#nav{
+  color: red;
+ 
+}
+
+.sidenav1{
+  color:rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  
+}
+.sidenav1:hover{
+  color: orangered;
+
+}
+.active{
+  background-color: bisque;
+  border-left:15px solid orangered;
+  color:orangered;
+  padding-left: 5px;
+
+}
+#save{
+  background-color:#ff6500;
+}
+#save:hover{
+  background-color:orangered;
+}
+#cancel{
+  background-color: grey;
+}
+#cancel:hover{
+  background-color: darkslategrey;
+}
+.required{
+  color:red;
+}
+#sidenav2{
+  color:rgb(0, 0, 0);
+  padding: 10px 10px;
+  
+}
+#sidenav2:hover{
+  color:orangered;
+  border-left: 5px solid orangered;
+  background-color: bisque;
+}
+
+.login{
+  background-color: orange;
+  text-decoration: none;
+}
+.login:hover{
+  background-color: orangered;
+ }
+#delete{
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  outline: none;
+}
+button.close:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+#canvas{
+  width:250px; 
+ }
+#leftNav{
+   height:655px;
+ }
+ .edit{
+   color: red;
+ }
+ .edit:hover{
+   color: black;
+ }
+ 
+#yes{
+  background: #ff6500;
+    color: #fff;
+    border-color: #ff6500;
+}
+#yes:hover {
+  color: #fff;
+  background: #ff2600;
+  border-color: #ff2600;
+border:none
+}
+#no{
+  background: #5d6778;
+  color: #fff;
+}
+.Archieve{
+  border-left: 2px solid gray;
+}
+#sidenav3{
+  color:rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-left: 5px solid orangered;
+  
+}
+#sidenav3:hover{
+  color: red;
+  border-left: 5px solid orangered;
+  
+}
+@media(max-width: 1800px) {
+ .side{
+    display: block;
+      min-height: 100vh;
+      height: 100%;
+      width: 100%;
+      min-width: 100vw;
+    
+  }
+}
+@media(max-width: 1199.98px) {
+  .application{
+    top:0;
+left:0;
+       min-height: 100vh;
+       height: 100%;
+       width: 100%;
+       min-width: 100vw;
+       position: fixed;
+       overflow: hidden;
+   }
+ }
+ @media(max-width: 1800px) {
+ #leftNav{
+    
+       height: 100%;
+       }
+  }
+  @media screen and (max-width: 1658px) {
+
+    #image{
+        
+          height: 90rem;
+          }
+     }
+     @media screen and (max-device-width:1200px)  {
+
+      #image{
+          
+            height: 74rem;
+      }
+       } 
+       @media screen and (min-device-width: 1024px)  {
+
+        #image{
+            
+              height: 41rem;
+              }
+         }     
